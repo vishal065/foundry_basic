@@ -1,0 +1,4 @@
+cast send 0xAb3396D4b725C5aBD267B7ea0f13d1911790a773 "store(uint256)" 444 --rpc-url $SEPOLIA_RPC_URL  --private-key $PRIVATE_KEY
+cast call 0xAb3396D4b725C5aBD267B7ea0f13d1911790a773 "retrive()" --rpc-url $SEPOLIA_RPC_URL  --private-key $PRIVATE_KEY
+it return value in hex 
+
